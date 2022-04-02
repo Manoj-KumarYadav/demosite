@@ -179,6 +179,10 @@ button{
 .profilelogo:hover{
     color: #18bc9c;
 }
+.inner-mega-menu{
+    position: absolute;
+    margin-left: 45px;
+}
 
 .profile {
     text-decoration: none;
