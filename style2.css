@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* #main{
+    border: 1px solid red;
+    height: 60px;
+       
+} */
+/* .menu{
+    float: left;
+    width: 400px;
+    height: 100px; */
+/* } */
+
+.menu ul{
+    list-style: none;
+    
+    
+    /* display: flex; */
+    /*display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.menu ul li{
+    background: blue;
+    width: 150px;
+    border: 1px solid white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    float: left;
+}
+.menu ul li:hover{
+    /* background-color: pink; */
+    border-bottom: 4px solid cyan;
+}
+.menu ul ul{
+    /* display: none; */
+    visibility: hidden;
+    margin-top: 4px;
+    
+}
+.menu ul li:hover > ul{
+    /* display: block; */
+    visibility: visible;
+    
+}
+#main #header.menu ul li .sub-menu li a{
+    font-size: 100px;
+}
+
+
+
+
+
+
+

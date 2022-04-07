@@ -25,7 +25,7 @@
     margin-top: 13px;
     width: 78px;
     height: 67px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     
 }
 
@@ -34,7 +34,7 @@
     height: 98px;
     position: absolute;
     display: flex;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .submenu{
@@ -46,65 +46,256 @@
 
 .men{
     position: relative;
-    width: 70px;
-    height: 40px;
+    width: 50px;
+    height: 63px;
     font-weight: bold;
     float: left;
+    /* border: 1px solid green; */
+}
+.topwear{
+    font-weight: bold;
+    color:#FF3F6C;
+}
+.men_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 1000px;
+    height: 280px;
+    
+    z-index: 1;
+    top: 45px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.formals{
+    float: left;
+    position: relative;
+    z-index: 2;
+    width: 198px;
+    height: 280px;
+    line-height:25px;
+    /* border: 1px solid pink; */
+}
+li{
+    list-style: none;
+}
+.men:hover > .men_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.men .men_options .formals{
+    font-weight: 100;
+}
+/* .men .men_options .formals:hover > .variety{
+    font-weight: 500;
+} */
+.variety{
+    margin-left: 20px;
+}
+.men:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
 }
 
-.women
-        {
-            
-            position: relative;        
-            /* left: 16%;
-            bottom: 20px; */
-            width: 100px;
-            height: 40px;
-            font-weight: bold;
-            float: left;
-    
-        }
+
+
+
+.women{      
+    position: relative;
+    margin-left: 20px;        
+    /* left: 16%;
+    bottom: 20px; */
+    width: 70px;
+    height: 63px;
+    font-weight: bold;
+    float: left;  
+    /* border: 1px solid green;   */
+}
+.women_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 1000px;
+    height: 280px;    
+    z-index: 1;
+    right: 72px;
+    top: 45px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.women:hover > .women_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.women .women_options .formals{
+    font-weight: 100;
+}
+.women:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
+}
+/* .women .women_options .formals:hover > .variety{
+    font-weight: 500;
+} */
 
 .kids
-        {
-            float: left;
-            width: 70px;
-            height: 40px;
-            font-weight: bold;
-            color: black;
-             
-        }
+    {
+        float: left;
+        margin-left: 30px;
+        width: 40px;
+        height: 63px;
+        font-weight: bold;
+        color: black;
+        /* border: 1px solid red;            */
+}
+.kids_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 1000px;
+    height: 280px;    
+    z-index: 2;
+    right: 174px;
+    top: 45px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.kids:hover > .kids_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.kids .kids_options .formals{
+    font-weight: 100;
+}
+.kids:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
+}
 
 .home
         {
             float: left;
-            width: 160px;
-            height: 60px;
+            width: 130px;
+            height: 63px;
             font-weight: bold;
             color: black;
-             
-        }
+            margin-left: 30px;
+            /* border: 1px solid black; */
+}
+.home_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 1000px;
+    height: 280px;    
+    z-index: 2;
+    right: 250px;
+    top: 45px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.home:hover > .home_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.home .home_options .formals{
+    font-weight: 100;
+}
+.home:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
+}
 
 .beauty
         {
             
             float: left;
-            width: 100px;
-            height: 40px;
+            width: 65px;
+            height: 63px;
+            margin-left: 30px;
             font-weight: bold;
-        }
+            /* border: 1px solid red; */
+}
+.beauty_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 1000px;
+    height: 280px;    
+    z-index: 2;
+    right:400px;
+    top: 45px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.beauty:hover > .beauty_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.beauty .beauty_options .formals{
+    font-weight: 100;
+}
+.beauty:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
+}
 
 .studio
         { 
             position: relative;
             /*left: 40%;*/
+            margin-left: 35px;
             float: left;
             width: 100px;
             height: 40px;
             font-weight: bold;
-             
-        }
+}
+.studio_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 550px;
+    height: 430px;    
+    z-index: 5;
+    right:320px;
+    top: 45px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.studio:hover > .studio_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.studio_options .studio-banner{
+    padding-left: 230px;
+    padding-top: 10px;
+}
+.fashion_text{
+    margin-left: 120px;
+}
+.inner-banner{
+    /* border: 1px solid black; */
+    width: 480px;
+    margin-top: 8px;
+    margin-left: 32px;
+    height: 250px;
+}
+.explore_button{
+    margin-top: 20px;
+    margin-left: 200px;  
+    /* border: 1px solid gray; */
+}
+.explore_button button{
+    background-color: #ffffff;
+    border: 1px solid rgb(226, 226, 226);
+    color: #110d0e;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif; 
     
+}
 
 .font{
     text-decoration: none;
@@ -120,12 +311,12 @@
     padding-top: 24px;
     overflow: hidden;
     flex-wrap: wrap;
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
     
 }
 
 .search-box{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     overflow: hidden;
     border-radius: 4px;
     
@@ -162,37 +353,171 @@ button{
 #features{
     position: relative;
     display: flex;
+    height: 84px;
     margin-left: 200px;
-    padding-top: 16px;
-    border: 1px solid black;
+    padding-top: 30px;
+    /* border: 1px solid rgb(255, 244, 244); */
+    
+    z-index: 1;
     
 }
+.boxes{
+    padding-bottom: 10px;
+    /* border: 1px solid black; */
+    height: 120px;
+    width: 250px;
+    /* padding: 2px; */
+    position: relative;
+    /* right: 12px; */
+    
+}
+.welcome{
+    padding-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.account{
+    color: black;
+    font-size: 15px;
+    /* padding-top: 4px; */
+}
+.login_button{
+    margin: 6px;
+    padding-top: 10px;
+    /* opacity: 0.3; */
+}
+.login_button button{
+    background-color: #ffffff;
+    border: 1px solid rgb(226, 226, 226);
+    color: #FF3F6C;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif; 
+    
+}
+.list12{
+    font-size: 15px;
+    line-height:24px;
+    color: #3E4152;
+    text-shadow: none;
+    margin-left: 5px;
+}
 
+hr{
+    border: 0.2px solid rgb(196, 196, 196);
+}
+.profile ul li .outer_box{
+    top: 20px;
+    position: relative;
+    height: 400px;
+    width: 260px;
+    /* z-index: 1; */
+    /* border: 1px solid rgb(21, 17, 245); */
+    right: 140px;
+    padding-left: 20px;
+    visibility: hidden;
+    
+}
+.outer_box{
+    background-color: #fff;
+    width: 250px;
+    border: 2px solid rgb(230, 228, 228);
+}
+.login_button{
+    height: 50px;
+    /* border: 1px solid green; */
+}
 /* .feature-b a{
     text-decoration: none;
     color: black;
 } */
 
-.profilelogo{  flex-wrap: wrap;  
-    margin-left: 45px;
-}
-.profilelogo:hover{
-    color: #18bc9c;
-}
-.inner-mega-menu{
-    position: absolute;
+.profilelogo{flex-wrap: wrap;  
     margin-left: 45px;
 }
 
+.inner-mega-menu{
+    position: absolute;
+    margin-left: 45px;
+    top: 65px;
+    left: 0;
+    width: 250px;
+    height: 250px;  
+}    
+
+
+/* .inner-mega-menu ul:hover > li{
+    display: block;
+   
+} */ 
+
 .profile {
     text-decoration: none;
-    color: black;
     font-size: small;
     margin-left: 45px;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    /* border: 1px solid black; */
+    height: 46px;
+    
+    /* line-height: 20px; */  
+}
+
+.profile ul{
+    position: absolute;
+    z-index: 0;
+    list-style: none;
+    /* border: 1px solid red; */
+    width: 32px;
+    height: 15px;
+}
+.profile ul li{
+    /* border: 1px solid red; */
+    height: 32px;
+    width: 50px;
+}
+.profile ul ul li{
+    position: relative;
+    font-size: 20px;
+    /* z-index: 5; */
+}
+.profile ul li ul{
+    position: relative;
+    z-index: 1;
+    visibility: hidden;
     
 }
-.profile:hover{
-    color: #18bc9c;
+.profile ul li ul li{
+    position: relative;
+    top: 20px;
+} 
+    /* ------------------hover section---------------------- */
+.profile ul li .outer_box .boxes .list12:hover{
+    font-weight: bold;
+}                           
+
+.profile ul li:hover > .outer_box{
+    visibility: visible; 
+}
+.profile ul li:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
+}
+
+
+
+.info-title{
+    margin-top: 15px;
+    margin-left: 42px;
+    /* width: 300px;
+    height: 300px; */
+    /* display: hidden; */
+    display: none;
+    
+
 }
 
 .wishlistlogo{flex-wrap: wrap;
@@ -212,7 +537,7 @@ button{
     margin-left: 28px;
 }
 
-                            /* image slider box */
+                            /* -----------------image slider box ------------ */
 .slider-box img{
     width: 100%;
     
@@ -223,14 +548,16 @@ button{
     position: relative;
     background-color: #EEEEEE;
     padding-top: 45px;
-    border: 1px solid red; 
+    z-index: 0;
+    /* border: 1px solid red;  */
 }
 
 .slider-box{
-
+    position: relative;
+    z-index: 0;
     width: 99.9%;
     display: inline-flex;
-    border: 1px solid red  
+    /* border: 1px solid red   */
 }
                             /* slider box */
 .indicators{
@@ -292,27 +619,27 @@ button{
 #bottom-menu{
     justify-content: center;
     display: flex;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
 }
 .bottom-menu0{
     margin: 5px;
     height: 200px;
     /* width: 160px; */
-    border: 1px solid cyan;
+    /* border: 1px solid cyan; */
 }
 
 .bottom-menu1{
     margin: 5px;
     height: 340px;
     width: 160px;
-    border: 1px solid cyan;
+    /* border: 1px solid cyan; */
 }
 .bottom-menu2{
     margin: 5px;
     height: 340px;
     width: 280px;
-    border: 1px solid cyan;
+    /* border: 1px solid cyan; */
 }    
 
 
