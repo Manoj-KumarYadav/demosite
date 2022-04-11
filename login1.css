@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FF7F50;
+}
+.register{
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 25px;
+    height: 400px;
+    background-color: rgb(253, 255, 255);
+    width: 25%;
+}
+button{
+    width: 130px;
+    height: 40px;
+}
+.login{
+    position: relative;
+    margin-top: 50px;
+
+}

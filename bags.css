@@ -1,0 +1,106 @@
+.bagbox{
+    display: flex;
+    position: relative;
+    /* border: 1px solid black; */
+    color: rgb(168, 175, 174);
+    height: 100px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    left: 250px;
+    top: 10px;
+}
+.bagbox span{
+    font-weight: bold;
+    color: rgb(79, 238, 217);
+}
+.secure{
+    display: grid;
+    position: relative;
+    left: 500px;
+    top: 10px;
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    align-content: center ;
+}
+.secure img{
+    /* border: 1px solid black; */
+}
+.itembox_main{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 500px;
+
+}
+.itempic{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    align-content: center;
+    /* border: 1px solid black; */
+    height: 280px;
+    width: 400px;
+}
+.itempic img{
+    /* border: 1px solid black; */
+
+}
+.item_button{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 400px;
+}
+.item_button button{
+    border: 1px solid rgb(247, 75, 141);
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 220px;
+    color: rgb(247, 75, 141);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.cards_help{
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 90px;
+}
+.cards{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 90px;
+    width: 670px;
+
+}
+.help{
+    position: relative;
+    left: 30px;
+    /* border: 1px solid black; */
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 90px;
+    width: 200px;
+}
+.help a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+}

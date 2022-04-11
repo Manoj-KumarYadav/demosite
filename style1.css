@@ -7,7 +7,7 @@
 
 /* main page div */
 #maindiv{
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
 
 }
 
@@ -247,9 +247,10 @@ li{
             /*left: 40%;*/
             margin-left: 35px;
             float: left;
-            width: 100px;
-            height: 40px;
+            width: 90px;
+            height: 63px;
             font-weight: bold;
+            /* border: 1px solid rgb(204, 22, 22); */
 }
 .studio_options{
     position: relative;
@@ -258,8 +259,10 @@ li{
     width: 550px;
     height: 430px;    
     z-index: 5;
+    /* justify-content: center;
+    align-items: baseline; */
     right:320px;
-    top: 45px;
+    top: 46px;
     border: 2px solid rgb(230, 228, 228);
     font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
 }
@@ -271,6 +274,9 @@ li{
 .studio_options .studio-banner{
     padding-left: 230px;
     padding-top: 10px;
+}
+.studio:hover{
+    border-bottom: 3px solid rgb(255, 51, 0);
 }
 .fashion_text{
     margin-left: 120px;
@@ -319,14 +325,13 @@ li{
     /* border: 1px solid black; */
     overflow: hidden;
     border-radius: 4px;
-    
     border: none;
-    
 }
 
 input[type=text] {
     flex-wrap: wrap;
     padding: 11px;
+    outline: none;
     /* margin-top: 12px;  */
     font-size: 12px;
     font-family: sans-serif;
@@ -398,6 +403,7 @@ button{
     
 }
 .list12{
+    text-decoration: none;
     font-size: 15px;
     line-height:24px;
     color: #3E4152;
@@ -405,9 +411,6 @@ button{
     margin-left: 5px;
 }
 
-hr{
-    border: 0.2px solid rgb(196, 196, 196);
-}
 .profile ul li .outer_box{
     top: 20px;
     position: relative;
@@ -496,8 +499,9 @@ hr{
     top: 20px;
 } 
     /* ------------------hover section---------------------- */
-.profile ul li .outer_box .boxes .list12:hover{
+.list12:hover{
     font-weight: bold;
+    cursor: pointer;
 }                           
 
 .profile ul li:hover > .outer_box{
@@ -638,7 +642,7 @@ hr{
 .bottom-menu2{
     margin: 5px;
     height: 340px;
-    width: 280px;
+    width: 340px;
     /* border: 1px solid cyan; */
 }    
 
@@ -656,10 +660,17 @@ hr{
     margin: 0 0 0 5px;
     border-radius: 20px;
 }
-.apstorelogo{
-    height: 20%;
-    width: 40%;
+.gpay-banner{
+    float: left;
+    width: 160px;
+}
+.appstore-banner{
+    margin-left: 10px;
+    width: 140px;
     
+}
+.social_media{
+    margin-top: 50px;
 }
 .socialicon{
     color: red;
