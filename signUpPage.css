@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background-color: #FEEEF2;
+    border: 1px solid red;
+}
+#signUp_page{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    left: 750px;
+    top: 30px;
+    border: 1px solid black;
+}
+.signup{
+    padding: 22px 0 0 ;
+}

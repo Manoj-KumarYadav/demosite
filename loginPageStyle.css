@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FEEEF2;
+}
+.register{
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 25px;
+    height: 700px;
+    background-color: rgb(253, 255, 255);
+    width: 22%;
+}
+/* button{
+    width: 140px;
+    height: 40px;
+} */
+.account{
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.login{
+    /* position: absolute; */
+    margin-top:35px;
+}
+.loginfacebook{
+    position: relative;
+    left: 45px;
+    width: 130px;
+    height: 40px;
+    float: left;
+    cursor: pointer;
+}
+
+.loginfacebook img{
+    position: absolute;
+    width: 15px;
+    left: 5px;
+}
+.logingoogle{
+    position: relative;
+    float: right;
+    margin-right: 35px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer; 
+}
+.logingoogle img{
+    position: absolute;
+    left: 5px;
+    width: 15px;
+    height: 15px; 
+}
+.loginwithemail{
+    position: relative;
+    top: 5px;
+    margin-left: 50px;
+    width: 243px;
+    height: 40px;
+    cursor: pointer;   
+}
+.loginwithemail img{
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    width: 25px;
+    height: 20px; 
+}
+hr{
+    margin-left: 60px;
+}
+.newUser{
+    position: relative;
+    top: 15px;
+    right: 50px;
+    
+}
+.createAccount{
+    /* background-color: white; */
+    position: relative;
+    top: 20px;
+    margin-left: 50px;
+    width: 243px;
+    height: 40px; 
+    cursor: pointer;  
+}
+.createAccount img{
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    width: 25px;
+    height: 20px; 
+}

@@ -1,0 +1,699 @@
+*,
+*:before,
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* main page div */
+/* #maindiv{
+    border: 1px solid rebeccapurple;
+
+} */
+
+                        /* header menu div */
+.header{
+    /* background-color: cyan; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100%;
+}
+                        /* site logo and menu bar div */
+#logo1{
+    margin-left: 40px;
+    margin-top: 13px;
+    width: 78px;
+    height: 67px;
+    /* border: 1px solid rebeccapurple; */
+    
+}
+
+#menu{
+    margin-left: 150px;
+    height: 98px;
+    position: absolute;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+
+.submenu{
+    flex-wrap: wrap;
+    padding-top: 33px;
+    /* margin: 10px; */
+    /* padding: 10px; */
+}
+
+.men{
+    position: relative;
+    width: 50px;
+    height: 63px;
+    font-weight: bold;
+    float: left;
+    /* border: 1px solid green; */
+}
+.topwear{
+    font-weight: bold;
+    color:#FF3F6C;
+}
+.men_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 1000px;
+    height: 280px;
+    
+    z-index: 1;
+    top: 45px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.formals{
+    float: left;
+    position: relative;
+    z-index: 2;
+    width: 198px;
+    height: 280px;
+    line-height:25px;
+    /* border: 1px solid pink; */
+}
+li{
+    list-style: none;
+}
+.men:hover > .men_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.men .men_options .formals{
+    font-weight: 100;
+}
+/* .men .men_options .formals:hover > .variety{
+    font-weight: 500;
+} */
+.variety{
+    margin-left: 20px;
+}
+.men:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
+}
+
+
+
+
+.women{      
+    position: relative;
+    margin-left: 20px;        
+    /* left: 16%;
+    bottom: 20px; */
+    width: 70px;
+    height: 63px;
+    font-weight: bold;
+    float: left;  
+    /* border: 1px solid green;   */
+}
+.women_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 1000px;
+    height: 280px;    
+    z-index: 1;
+    right: 72px;
+    top: 45px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.women:hover > .women_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.women .women_options .formals{
+    font-weight: 100;
+}
+.women:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
+}
+/* .women .women_options .formals:hover > .variety{
+    font-weight: 500;
+} */
+
+.kids
+    {
+        float: left;
+        margin-left: 30px;
+        width: 40px;
+        height: 63px;
+        font-weight: bold;
+        color: black;
+        /* border: 1px solid red;            */
+}
+.kids_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 1000px;
+    height: 280px;    
+    z-index: 2;
+    right: 174px;
+    top: 45px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.kids:hover > .kids_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.kids .kids_options .formals{
+    font-weight: 100;
+}
+.kids:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
+}
+
+.home
+        {
+            float: left;
+            width: 130px;
+            height: 63px;
+            font-weight: bold;
+            color: black;
+            margin-left: 30px;
+            /* border: 1px solid black; */
+}
+.home_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 1000px;
+    height: 280px;    
+    z-index: 2;
+    right: 250px;
+    top: 45px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.home:hover > .home_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.home .home_options .formals{
+    font-weight: 100;
+}
+.home:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
+}
+
+.beauty
+        {
+            
+            float: left;
+            width: 65px;
+            height: 63px;
+            margin-left: 30px;
+            font-weight: bold;
+            /* border: 1px solid red; */
+}
+.beauty_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 1000px;
+    height: 280px;    
+    z-index: 2;
+    right:400px;
+    top: 45px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.beauty:hover > .beauty_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.beauty .beauty_options .formals{
+    font-weight: 100;
+}
+.beauty:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
+}
+
+.studio
+        { 
+            position: relative;
+            /*left: 40%;*/
+            margin-left: 35px;
+            float: left;
+            width: 90px;
+            height: 63px;
+            font-weight: bold;
+            /* border: 1px solid rgb(204, 22, 22); */
+}
+.studio_options{
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 550px;
+    height: 430px;    
+    z-index: 5;
+    /* justify-content: center;
+    align-items: baseline; */
+    right:320px;
+    top: 46px;
+    border: 2px solid rgb(230, 228, 228);
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.studio:hover > .studio_options{
+    /* position: relative; */
+    /* visibility: visible; */
+    display: block; 
+}
+.studio_options .studio-banner{
+    padding-left: 230px;
+    padding-top: 10px;
+}
+.studio:hover{
+    border-bottom: 3px solid rgb(255, 51, 0);
+}
+.fashion_text{
+    margin-left: 120px;
+}
+.inner-banner{
+    /* border: 1px solid black; */
+    width: 480px;
+    margin-top: 8px;
+    margin-left: 32px;
+    height: 250px;
+}
+.explore_button{
+    margin-top: 20px;
+    margin-left: 200px;  
+    /* border: 1px solid gray; */
+}
+.explore_button button{
+    background-color: #ffffff;
+    border: 1px solid rgb(226, 226, 226);
+    color: #110d0e;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif; 
+    
+}
+
+.font{
+    text-decoration: none;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color:rgb(48, 45, 45);
+    
+}
+                            /* search box div */
+#search{
+    margin-left: 780px;
+    /* margin-top: 22px; */
+    /* height: 150px; */
+    padding-top: 24px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    /* border: 1px solid blue;  */
+    
+}
+
+.search-box{
+    /* border: 1px solid black; */
+    overflow: hidden;
+    border-radius: 4px;
+    border: none;
+}
+
+input[type=text] {
+    flex-wrap: wrap;
+    padding: 11px;
+    outline: none;
+    /* margin-top: 12px;  */
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: #EEEEEE;
+    /* border-radius: 8px; */
+    border: none;
+}
+
+button{
+    flex-wrap: wrap;
+    /* margin-top: 1px; */
+    float: left;
+    background: #EEEEEE;
+    /* color: white; */
+    /* border-radius: 0 5px 5px 0; */
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    /* font-family: sans-serif; */
+    border: none;
+    font-size: 16px;
+}
+                            /* profile logo and text */
+#features{
+    position: relative;
+    display: flex;
+    height: 84px;
+    margin-left: 200px;
+    padding-top: 30px;
+    /* border: 1px solid rgb(255, 244, 244); */
+    
+    z-index: 1;
+    
+}
+.boxes{
+    padding-bottom: 10px;
+    /* border: 1px solid black; */
+    height: 120px;
+    width: 250px;
+    /* padding: 2px; */
+    position: relative;
+    /* right: 12px; */
+    
+}
+.welcome{
+    padding-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.account{
+    color: black;
+    font-size: 15px;
+    /* padding-top: 4px; */
+}
+.login_button{
+    margin: 6px;
+    padding-top: 10px;
+    /* opacity: 0.3; */
+}
+.login_button button{
+    background-color: #ffffff;
+    border: 1px solid rgb(226, 226, 226);
+    color: #FF3F6C;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif; 
+    
+}
+.list12{
+    text-decoration: none;
+    font-size: 15px;
+    line-height:24px;
+    color: #3E4152;
+    text-shadow: none;
+    margin-left: 5px;
+}
+
+.profile ul li .outer_box{
+    top: 20px;
+    position: relative;
+    height: 400px;
+    width: 260px;
+    /* z-index: 1; */
+    /* border: 1px solid rgb(21, 17, 245); */
+    right: 140px;
+    padding-left: 20px;
+    visibility: hidden;
+    
+}
+.outer_box{
+    background-color: #fff;
+    width: 250px;
+    border: 2px solid rgb(230, 228, 228);
+}
+.login_button{
+    height: 50px;
+    /* border: 1px solid green; */
+}
+/* .feature-b a{
+    text-decoration: none;
+    color: black;
+} */
+
+.profilelogo{flex-wrap: wrap;  
+    margin-left: 45px;
+}
+
+.inner-mega-menu{
+    position: absolute;
+    margin-left: 45px;
+    top: 65px;
+    left: 0;
+    width: 250px;
+    height: 250px;  
+}    
+
+
+/* .inner-mega-menu ul:hover > li{
+    display: block;
+   
+} */ 
+
+.profile {
+    text-decoration: none;
+    font-size: small;
+    margin-left: 45px;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    /* border: 1px solid black; */
+    height: 46px;
+    
+    /* line-height: 20px; */  
+}
+
+.profile ul{
+    position: absolute;
+    z-index: 0;
+    list-style: none;
+    /* border: 1px solid red; */
+    width: 32px;
+    height: 15px;
+}
+.profile ul li{
+    /* border: 1px solid red; */
+    height: 32px;
+    width: 50px;
+}
+.profile ul ul li{
+    position: relative;
+    font-size: 20px;
+    /* z-index: 5; */
+}
+.profile ul li ul{
+    position: relative;
+    z-index: 1;
+    visibility: hidden;
+    
+}
+.profile ul li ul li{
+    position: relative;
+    top: 20px;
+} 
+    /* ------------------hover section---------------------- */
+.list12:hover{
+    font-weight: bold;
+    cursor: pointer;
+}                           
+
+.profile ul li:hover > .outer_box{
+    visibility: visible; 
+}
+.profile ul li:hover {
+    border-bottom: 3px solid rgb(255, 58, 91);
+}
+
+
+
+.info-title{
+    margin-top: 15px;
+    margin-left: 42px;
+    /* width: 300px;
+    height: 300px; */
+    /* display: hidden; */
+    display: none;
+    
+
+}
+
+.wishlistlogo{flex-wrap: wrap;
+    margin-left: 22px;
+}
+
+.wishlist{
+    font-size: small;
+    margin-left: 23px;
+}
+
+.baglogo{flex-wrap: wrap;
+    margin-left: 20px;
+}
+.bag{
+    font-size: small;
+    margin-left: 28px;
+}
+
+                            /* -----------------image slider box ------------ */
+.slider-box img{
+    width: 100%;
+    
+}
+
+#slider{
+    width: 99.9%;
+    position: relative;
+    background-color: #EEEEEE;
+    padding-top: 45px;
+    z-index: 0;
+    /* border: 1px solid red;  */
+}
+
+.slider-box{
+    position: relative;
+    z-index: 0;
+    width: 99.9%;
+    display: inline-flex;
+    /* border: 1px solid red   */
+}
+                            /* slider box */
+.indicators{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+.indicators span{
+    display: inline block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+}
+
+.studio sup{
+    font-size: 10px;
+    color: red;
+}
+.text-banner {
+    position: absolute;
+    margin: 50px;
+    margin-left: 20px;
+    letter-spacing: .15em;
+    /* text-align: justify; */
+    font-family: Helvetica,Arial,sans-serif;
+    color:rgb(48, 45, 45);
+    /* border: 1px solid red; */
+
+}
+#image-banner{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    display: flex; 
+    /* border: 1px solid red;  */
+    
+}
+.banners{
+    width: 310px;
+    /* border: 1px solid red; */
+    
+}
+#image-brands{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px; 
+    /* border: 1px solid red;    */
+}
+.banner{
+    width: 232px;
+    /* border: 1px solid red; */
+    
+}
+#bottom-menu{
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid green; */
+
+}
+.bottom-menu0{
+    margin: 5px;
+    height: 200px;
+    /* width: 160px; */
+    /* border: 1px solid cyan; */
+}
+
+.bottom-menu1{
+    margin: 5px;
+    height: 340px;
+    width: 160px;
+    /* border: 1px solid cyan; */
+}
+.bottom-menu2{
+    margin: 5px;
+    height: 340px;
+    width: 340px;
+    /* border: 1px solid cyan; */
+}    
+
+
+#os{
+    font-size: 12px;
+    font-weight: bold;
+}
+.new{
+    font-size: 12px;
+
+    color: #fff;
+    padding: 0 5px;
+    background: red;
+    margin: 0 0 0 5px;
+    border-radius: 20px;
+}
+.gpay-banner{
+    float: left;
+    width: 160px;
+}
+.appstore-banner{
+    margin-left: 10px;
+    width: 140px;
+    
+}
+.social_media{
+    margin-top: 50px;
+}
+.socialicon{
+    position: relative;
+    top: 20px;
+    display: flex;        
+    color: red;
+    width: 10%;
+}
+.twicon{
+    position: relative;
+    /* top: 10px; */
+    left: 10px;
+}
+.yticon{
+    position: relative;
+    /* top: 10px; */
+    left: 20px;
+}
+.instaicon{
+    position: relative;
+    /* top: 10px; */
+    left: 30px;
+}
+
+
+
